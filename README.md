@@ -4,7 +4,7 @@ Main corporate website
 
 # HOSTING
 
-* Through GitHub Pages
+* Through GitHub Pages - 207.97.227.245
 
 # DOMAIN
 
