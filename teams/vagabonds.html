@@ -1,0 +1,159 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+		<title>Tokyo Metropolis League - Teams</title>
+		<LINK href=../include/stylesheet1.css rel=stylesheet TYPE=text/css>
+		<SCRIPT LANGUAGE="javascript">
+
+   <!--
+
+   function closeMe() {
+   opener.NewWindow=null;
+      self.close();
+   }
+window.onerror = null;
+   // -->
+</SCRIPT>
+<SCRIPT language="JavaScript"> 
+<!--
+/*  You can get this script and many others 
+    by visiting JavaScript City at: http://www.javascriptcity.com . */
+
+pic_width=400; 
+pic_height=100; 
+border_size=0;  
+alignment=1;  
+
+
+
+if (document.images)
+ {
+     pic1= new Image(400,100);
+     pic1.src="../mats/sponslogos/TPspon/aldgatel.gif";  
+     pic2= new Image(400,100); 
+     pic2.src="../mats/sponslogos/TPspon/AP.gif"; 
+     pic3= new Image(400,100);
+     pic3.src="../mats/sponslogos/TPspon/dickens.gif";  
+     pic4= new Image(400,100);
+     pic4.src="../mats/sponslogos/TPspon/foleys.gif";  
+     pic5= new Image(400,100);
+     pic5.src="../mats/sponslogos/TPspon/GOL.gif"; 
+     pic6= new Image(400,100);
+     pic6.src="../mats/sponslogos/TPspon/hobgob.gif"; 
+     pic7= new Image(400,100);
+     pic7.src="../mats/sponslogos/TPspon/mogger.gif"; 
+     pic8= new Image(400,100);
+     pic8.src="../mats/sponslogos/TPspon/Shane.gif"; 
+     pic9= new Image(400,100);
+     pic9.src="../mats/sponslogos/TPspon/WSA.jpg";  
+ }    
+
+/* no need to edit past this point (unless you want to add more image slots) */
+
+if (alignment==1)
+ {
+  cent_it="<CENTER>";
+  cent_it2="<\/CENTER>";
+ }
+else
+ {
+  cent_it="";
+  cent_it2="";
+ }
+ 
+function get_random(maxNum)
+{
+  if (Math.random && Math.round)
+  {
+    var ranNum= Math.round(Math.random()*(maxNum-1));
+    ranNum+=1;
+    return ranNum;
+  }
+  else
+  {
+  today= new Date();
+  hours= today.getHours();
+  mins=   today.getMinutes();
+  secn=  today.getSeconds();
+  if (hours==19)
+   hours=18;
+  var ranNum= (((hours+1)*(mins+1)*secn)%maxNum)+1;
+  return ranNum;
+  }
+}
+
+function get_Image()
+{
+ if (document.images)
+ {
+  var choose_one= get_random(9);  
+  choose_one--;
+
+  var pics= new Array(9) 
+   pics[0]=pic1.src;
+   pics[1]=pic2.src;
+   pics[2]=pic3.src;
+   pics[3]=pic4.src;
+   pics[4]=pic5.src; 
+   pics[5]=pic6.src;
+   pics[6]=pic7.src;
+   pics[7]=pic8.src; 
+   pics[8]=pic9.src; 
+
+  document.write(cent_it+"<IMG SRC='"+pics[choose_one]+"' width='"+pic_width+"' height='"+pic_height+"' border='"+border_size+"'>"+cent_it2);
+ }
+}
+//-->
+</SCRIPT>
+
+	</head>
+
+	<body background="../mats/images/bg.gif" bgcolor="#FFFFFF">
+		<table border="0" width="422" cellspacing="0" cellpadding="5">
+			<tr>
+				<td>
+					<table border="1" bordercolor="#33CC33" cellpadding="1" width="510" bgcolor="#FFFFFF" cellspacing="0" align="center">
+						<tr bgcolor="#339933">
+							<td>
+								<h1 class="white"><a class="txlink" href="http://www.bfcvagabonds.com" target="_blank"> </a>BFC Vagabonds</h1>
+							</td>
+						</tr>
+						<tr>
+												<td><DIV align=center><img src="../mats/images/spacer.gif" width="400" height="4" border="0">
+												<Div align="center"><img src="photos/Vags_tml6.JPG" width="600" height="379" border="0"></Div>
+												<img src="../mats/images/spacer.gif" width="400" height="4" border="0"></DIV></td>
+											</tr>
+						<tr bgcolor="#339933">
+												<td>
+												<p class=small><b class="white">Back Row: Graham Burt, James Musgrove, Chris Southam, Richard Straughan, Taylor Mignon, Gary Quinn, Paul Wadsworth, Lyndsey Hughes, Steve Glenn.<BR>Front Row: Francis Sahara, Nao Kameda, Sean Tozic, Adrian Thomas, Ged O'Connell, Simon Sparkes, Ian Warner, Alex Sahara.</b></p></td>
+											</tr>
+						<tr>
+							<td align="center">
+								<script type="text/javascript"><!--
+google_ad_client = "pub-0974683991743235";
+/* TML Index, 468x60, created 15/09/09 */
+google_ad_slot = "7002201217";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+								<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+							</td>
+						</tr>
+						<tr>
+												<td><P><a class="txlink" href="http://www.bfcvagabonds.com" target="_blank"><img src="../mats/banners/bfcvags.gif" width="79" height="100" border="0" align="right"> <b>BFC Vagabonds</b></a> was formed in 1998 as a team for the 'Older' members of the British Football Club to move on to once Division 1 football 'moved beyond their grasp'. It has since become a great 2nd team, holding it's own in TML Division 2 and putting in serious challengesin many small sided competitions.</td>
+											</tr>
+						<tr bgcolor="#339933">
+							<td>
+								<h3 class="blue"><a class="txlink" href="javascript:closeMe()">close</a></h3>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+</body>
+
+</html>

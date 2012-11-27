@@ -1,0 +1,81 @@
+BODY	{
+		border: 0;
+		margin: 0pt;
+		COLOR:#FFFFFF;
+		}
+A		 { color: #fff; font-family: Arial, Verdana, sans-serif; text-decoration: none }
+
+A:HOVER	   { color: #ff0; font-family: Arial, Verdana, sans-serif; text-decoration: underline; background-color: #393 }
+.txlink { color: #00f; font-family: Arial, Verdana, sans-serif }
+H1		{
+		PADDING-LEFT:5;
+		PADDING-RIGHT:5;
+		TEXT-ALIGN:center;
+		FONT-FAMILY: Arial,Verdana, Helvetica, sans-serif;
+		FONT-SIZE:13pt;
+		COLOR:#000033;
+		FONT-WEIGHT:900;
+		}
+
+H2		 { color: #000033; font-size: 12pt; font-family: Arial, Verdana, sans-serif; font-weight: bold; text-decoration: none; text-align: center; padding-right: 5; padding-left: 5 }
+
+H3		 { color: #000033; font-size: 9pt; font-family: Arial, Verdana, sans-serif; font-weight: bold; text-align: center; margin: 0; padding: 0 }
+
+H4		{
+		PADDING-LEFT:5;
+		PADDING-RIGHT:5;
+		FONT-FAMILY:Arial,Verdana,sans-serif;
+		TEXT-ALIGN:left;
+		COLOR:#000033;
+		FONT-WEIGHT:bold;
+		FONT-SIZE:9pt;
+		}
+H5  { font-size: 9pt; font-family: Arial, Verdana, sans-serif; font-weight: bold; font-stretch: normal; text-align: justify; padding: 2pt }
+P		  { color: #333333; font-size: 8pt; font-family: Arial, Verdana, sans-serif; text-align: justify; padding-right: 5; padding-left: 5 }
+li		 { color: #000000; font-size: 8pt; font-family: Arial, Verdana, sans-serif; text-align: left; padding-right: 10; padding-left: 10 }
+.caption		 { color: #900; font-size: 7pt; font-family: Arial, Verdana, sans-serif; text-align: center; padding-right: 5; padding-left: 5 }
+.lgtab { color: #000000; font-size: 7pt; font-family: Arial, Verdana, sans-serif; text-align: left }
+.tab		{
+		PADDING-LEFT:1;
+		PADDING-RIGHT:1;
+		FONT-FAMILY:Arial,Verdana,sans-serif;
+		TEXT-ALIGN:center;
+		FONT-SIZE:7pt;
+		}
+
+.small		{
+		FONT-FAMILY				: Arial,Verdana,sans-serif;
+		FONT-SIZE				: 7pt;
+		COLOR					: #000000;
+		}
+
+.boxborder	{
+		BORDER-STYLE			: solid;
+		BORDER-TOP-COLOR		: #33CC33;
+		BORDER-BOTTOM-COLOR		: #33CC33;
+		BORDER-LEFT-COLOR		: #33CC33;
+		BORDER-RIGHT-COLOR		: #33CC33;
+		BORDER-WIDTH			: 1px;
+		}
+.noborder { border-style: none }
+.big	{
+		FONT-FAMILY:Arial,Verdana,sans-serif;
+		FONT-SIZE:12pt;
+		}
+.white	{
+		COLOR:#FFFFFF;
+		}
+.red	{
+		COLOR:#FF0000;
+		}
+.navy	{
+		COLOR:#330099;
+		}
+.blue	{
+		COLOR:#0000FF;
+		}
+.green	 { color: #339933 }
+.or	{
+		COLOR:#FE9F34;
+		}
+.black { color: black }
