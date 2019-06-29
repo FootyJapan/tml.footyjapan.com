@@ -9,12 +9,12 @@ vlink = "#800080"
 date = "10/10/09">
 	<sitename>Tartan Challenge 2009 YC&AC</sitename>
 	<photographer>Footy Japan</photographer>
-	<contactinfo>http://www.footyjapan.com/tml/</contactinfo>
+	<contactinfo>http://footjapan.com/</contactinfo>
 	<email></email>
 	<security><![CDATA[Footy Japan]]> </security>
 
 <banner font = "Helvetica" fontsize = "3" color =  "#F0F0F0"> </banner>
-<thumbnail base ="thumbnails/" font = "Helvetica" fontsize = "4" color = "#F0F0F0" border = "0" rows = "3" col = "5"> </thumbnail> 
+<thumbnail base ="thumbnails/" font = "Helvetica" fontsize = "4" color = "#F0F0F0" border = "0" rows = "3" col = "5"> </thumbnail>
 <large base ="images/" font = "Helvetica" fontsize = "3" color = "#F0F0F0" border = "0"> </large>
 <images id = "images">
 
